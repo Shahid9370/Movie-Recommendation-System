@@ -15,7 +15,6 @@ Welcome to the **Movie Recommendation System**! This web application helps movie
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend (Optional):** Can easily be connected with a backend using technologies like Node.js, Python (Flask/Django), or others for dynamic data handling.
 - **Other Tools/Frameworks:** Bootstrap for UI components (optional)
-- **Deployment:** GitHub Pages / Netlify / Any hosting platform you are using
 
 ## Installation
 
