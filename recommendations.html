@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommendation System</title>
+  <link rel="stylesheet" href="css/reco.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recommendations.html" class="active">Recommendations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Movie Recommendation Section -->
+  <section id="recommendations">
+    <h2>Recommended Movies</h2>
+
+    <!-- Filter Options -->
+    <div class="filter-container">
+      <label for="genre-filter">Filter by Genre:</label>
+      <select id="genre-filter">
+        <option value="All">All</option>
+        <option value="Drama">Drama</option>
+        <option value="Action">Action</option>
+        <option value="Sci-Fi">Sci-Fi</option>
+        <option value="Romance">Romance</option>
+      </select>
+      
+      <!-- Sort by Rating Button -->
+      <button id="sort-rating">Sort by Rating</button>
+    </div>
+
+    <!-- Movie Recommendations List -->
+    <div id="recommendations-list" class="movies-container"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Movie Recommendation System. All rights reserved.</p>
+  </footer>
+
+  <!-- Script Includes -->
+  <script src="js/recommendations.js"></script>
+</body>
+</html>
